@@ -97,7 +97,7 @@ input_array= np.array([input_1, input_2,
                        ])
 
 input_array= input_array.reshape(1,-1)
-filename = 'C:\\Users\\j.wadhwani\\Desktop\\Lemnisk\\Logistic.sav'
+filename = 'Logistic.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 result= loaded_model.predict_proba(input_array)[:,1]
