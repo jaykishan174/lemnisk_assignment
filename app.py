@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 
 st.markdown("<h1 style='text-align: center; color: blue;'>Lemnisk Assignment</h1>", unsafe_allow_html=True)
-st.subheader("Sroll Below to see result")
+st.subheader("Scroll Below to see result")
 row_1_1, row_1_2, row_1_3, row_1_4 = st.beta_columns(4)
 
 input_1=row_1_1.number_input("Variable 13",min_value=0, step=1, max_value=1000, value=2)
